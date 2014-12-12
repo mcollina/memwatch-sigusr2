@@ -1,0 +1,26 @@
+{
+  "name": "memwatch-sigusr2",
+  "version": "1.0.0",
+  "description": "Do a heap diff on SIGUSR2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcollina/memwatch-sigusr2.git"
+  },
+  "keywords": [
+    "memwatch",
+    "sigusr2"
+  ],
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcollina/memwatch-sigusr2/issues"
+  },
+  "homepage": "https://github.com/mcollina/memwatch-sigusr2",
+  "dependencies": {
+    "memwatch": "^0.2.2"
+  }
+}
