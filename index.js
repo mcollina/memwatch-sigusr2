@@ -1,4 +1,4 @@
-var memwatch  = require('memwatch')
+var memwatch  = require('memwatch-next')
   , self      = Object.create(memwatch)
   , fs        = require('fs')
   , path      = require('path')
@@ -9,7 +9,7 @@ function setup() {
     if (!hd)
       return hd = new memwatch.HeapDiff()
 
-    var diff = hd.end();
+    var diff = hd.end()
 
     fs.writeFile(path.join('/tmp/', 'heap-diff-' + process.pid + '.json'), JSON.stringify(diff), function(err) {
       if (err)

@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/mcollina/memwatch-sigusr2",
   "dependencies": {
-    "memwatch": "^0.2.2"
+    "memwatch-next": "^0.3.0"
   }
 }
