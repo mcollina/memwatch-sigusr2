@@ -2,7 +2,7 @@ memwatch-sigusr2
 ================
 
 Do a heap diff on SIGUSR2 in node.
-Wraps completely [memwatch](http://npm.im/memwatch) and offers the same
+Wraps completely [memwatch-next](http://npm.im/memwatch-next) and offers the same
 API.
 
 Install
